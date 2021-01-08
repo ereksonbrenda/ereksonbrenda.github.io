@@ -16,5 +16,7 @@ footer{
 }
 img{
     float: right;
-    border: darkslateblue solid 3rem;
+    margin-top: 0px;
+    margin-bottom: auto;
+    border: darkslateblue solid 2rem;
 }
