@@ -1,6 +1,7 @@
 body {
     background-color: beige;
     margin: 40px;
+    align-content: center;
 
 }
 header,footer {
@@ -12,4 +13,8 @@ header,footer {
 }
 footer{
     padding: 3px;
+}
+img{
+    float: right;
+    border: darkslateblue solid 3rem;
 }
