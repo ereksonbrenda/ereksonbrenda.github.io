@@ -19,6 +19,9 @@ img{
     align-self:end;
     border: darkslateblue solid 1rem;
 }
+nav{
+    align-content: center;
+}
 #byuilink{
     color: rgb(12, 12, 12);
 }
