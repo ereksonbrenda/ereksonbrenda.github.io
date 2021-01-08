@@ -15,8 +15,6 @@ footer{
     padding: 3px;
 }
 img{
-    float: right;
-    margin-top: 0px;
-    margin-bottom: auto;
-    border: darkslateblue solid 2rem;
+    float: top-right;
+    border: darkslateblue solid 1rem;
 }
