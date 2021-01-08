@@ -1,11 +1,13 @@
 body {
     background-color: beige;
+    margin: 40px;
 
 }
 header,footer {
     background-color: rebeccapurple;
-    color: rgb(197, 192, 233);
+    color: rgb(242, 241, 247);
     text-align: center;
+    margin: 40px;
 
 }
 footer{
