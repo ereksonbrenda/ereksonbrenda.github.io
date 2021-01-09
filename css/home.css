@@ -18,6 +18,7 @@ img{
     float:right;
     align-self:end;
     border: darkslateblue solid 1rem;
+    margin-top: -50px;
 }
 nav{
     align-content: center;
