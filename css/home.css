@@ -17,11 +17,10 @@ footer{
 img{
     float:right;
     align-self:end;
-    border: rgb(15, 15, 15) solid 1rem;
     margin-top: -50px;
 }
-nav{
-    margin-left: 50px;
+nav,h2{
+    margin-left: 150px;
     align-content: center;
 }
 #byuilink{
