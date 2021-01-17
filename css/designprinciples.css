@@ -2,6 +2,7 @@ header,footer{
     background-color: rgb(4, 40, 41);
     color: thistle; 
    margin:50px;
+   font-family: 'Roboto', sans-serif;
    }
 
 }
@@ -13,7 +14,8 @@ h1,h2,h3,h4{
 main{
     display: grid;
     grid-template-columns: 1fr;
-    
+    margin:50px;
+
 }
 section{
     background-color: tomato;
@@ -22,11 +24,7 @@ section{
     padding-top: 20px;
 
 }
-#fistsection{
-    background-color: tan;
-    margin:50px;
 
-}
 body{
     background-color: rgb(4, 40, 41);
     margin:50px;
