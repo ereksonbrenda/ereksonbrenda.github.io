@@ -1,5 +1,37 @@
-header{
-    background-color: blueviolet;
-    color:whitesmoke;
+header,footer{ 
+    background-color: rgb(4, 40, 41);
+    color: thistle; 
+   margin:50px;
+   }
+
+}
+h1,h2,h3,h4{
+    background-color:rgb(14, 13, 14);
+    text-align: center;
+           
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
     
+}
+section{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+#fistsection{
+    background-color: tan;
+    margin:50px;
+
+}
+body{
+    background-color: rgb(4, 40, 41);
+    margin:50px;
+}
+img{
+    margin: 50px;
+    border: thin black solid;
 }
