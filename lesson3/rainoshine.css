@@ -6,10 +6,7 @@
   h2 {
     font-size: 1.5rem;
   }
-  header,
-  footer {
-    border-radius: 10em;
-  }
+  
   header img {
     float: right;
     border-radius: 0 10px 0 0;
@@ -23,55 +20,81 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: burlywood;
-  color: darkblue;
+  background-color: rgb(43, 41, 39);
+  color: rgb(241, 241, 247);
+  margin:30px;
 }
 header {
-  background: white;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  background: #213b55;
+  color:rgb(229, 228, 231);
+  box-shadow: 0 0 5px rgba(233, 224, 224, 0.1);
   text-align:center;
+}
+img{
+  width:400px;
+  height:auto;
+  border-bottom:black solid 5px;
+  border-right:black solid 5px;
+  margin:40px;
 }
 
  
 
-    nav {
-        list-style: none;
-        font-weight: bold;
-        margin-bottom: 10px;
-        
-        text-align: center;
-        
-        height:38px;
-    }
-    
-    nav ul {
-        list-style-type: none;
-        margin: 0px;
-        padding: 0;
-        width: 100%;
-        
-    }
-    
-    nav li {
-        margin: 0px;
-        display:
-    }
-    
-    nav li a {
-        padding: 10px;
-        text-decoration: none;
-        font-weight: bold;
-        color: #FFFFFF;
-        background-color: chocolate;
-        float: left
-    }
+
     
     nav li a:hover {
         color: #FFFFFF;
-        background-color: royalblue;
-    }     
+        background-color: rgb(29, 43, 85);
+    } 
+    main{
+      margin-top:40px;
+      margin:30px;
+      text-align: left;
+      color:rgb(229, 228, 231);
+    } 
+    
+    nav {
+      background-color: #213b55;
+      text-align: center;
+      margin: 0;
+    }
+    nav ul {
+      list-style-type: none;
+      text-align:center;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    nav li {
+      float:left;
+      text-align:center;
+    }
+    nav ul li a {
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 0.75rem;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    nav a:hover {
+      background-color: rgb(36, 35, 35);
+      color: #064772;
+    }   
 
-h1 {
+h1,h2,h3,li {
   font-family: "Roboto", sans-serif;
-  color: indigo;
+  color:rgb(229, 228, 231);
+  margin:40px;
 }
+p{
+  margin:40px;
+  color:rgb(229, 228, 231);
+
+}
+footer{
+  background:  #213b55;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  text-align:center;
+}
+  
