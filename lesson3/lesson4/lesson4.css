@@ -1,13 +1,78 @@
+main{
+    margin:0 auto;
+    max-width: 760px;
+}
 .heading{
     background-color:lightslategrey;
     color:white;
     display:flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:0;
 }
 header img{
     width:80px;
     height:auto;
+
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: lightgrey;
+}
+nav {
+	list-style: none;
+	padding: 0;
+}
+nav ul li:first-child {
+	display: block;
+}
+nav li {
+	display: none;
+}
+nav a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color:black;
+	
+}
+nav a:hover {
+	color: white;
+	background-color: black;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+	nav {
+		display: flex;
+	}
+	nav li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	nav a {
+		text-align: center;
+	}
+	nav li:first-child {
+		display: none;
+	}
+}
+
+div{
+    display:block;
+    margin:4px;
+    padding:1em;
+    background-color:yellowgreen;
 
 }
 footer{
