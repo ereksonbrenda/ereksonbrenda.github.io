@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lesson4/lesson4.css">
+    <link rel="stylesheet" href="lesson4/preston.js">
     <title>Preston Home Page Lesson 4</title>
 </head>
 
@@ -17,15 +18,18 @@
 
     </header>
     
-    <nav>
-        <ul>
-
-            <li><a href="#">home</a></li>
-            <li><a href="#">Preston</a></li>
-            <li><a href="#">weather</a></li>
-            <li><a href="#">memyself</a></li>
-               
-        </ul>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a target="_blank" href="/lesson4/preston-4.html">Home </a> </li>
+            <li class="active"><a target="_blank" href="#">Preston</a> </li>
+            <li><a target="_blank" href="#">Soda Springs</a></li>
+            <li><a target="_blank" href="#">Fish Heaven</a></li>
+            <li><a target="_blank" href="#">Storm Center</a></li>
+            <li><a target="_blank" href="#">Gallery</a></li>
+          </ul>
+      </nav>
+    
 
     </nav>
     <main>

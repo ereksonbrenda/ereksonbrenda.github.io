@@ -16,57 +16,40 @@ header img{
     height:auto;
 
 }
-nav {
-	margin: 0 auto;
-	max-width: 760px;
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: darkgrey;
+}
+nav {	
 	background-color: lightgrey;
 }
-nav {
-	list-style: none;
-	padding: 0;
+nav ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
 }
-nav ul li:first-child {
-	display: block;
+nav ul li a{
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.3)
 }
-nav li {
-	display: none;
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.2);
 }
-nav a {
-	display: block;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
-	color:black;
-	
-}
-nav a:hover {
-	color: white;
-	background-color: black;
+nav ul li.active a{
+    background-color: rgba(0,0,0,0.3) color:white;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
-.responsive li {
-	display: block;
-}
 
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
-	nav {
-		display: flex;
-	}
-	nav li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	nav a {
-		text-align: center;
-	}
-	nav li:first-child {
-		display: none;
-	}
-}
+	
+
 
 div{
     display:block;
@@ -75,6 +58,36 @@ div{
     background-color:yellowgreen;
 
 }
+nav button{ display:none;
+
+}
+nav ul.hide{
+    display:block;
+}
+nav ul{
+    margin-left: 2%;
+
+}
+nav ul li {
+    float:left;
+}
+nav ul li a{
+    border:none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .8rem 1rem;
+
+}
+}
+/*medium query end*/
+/*start large query here*/
+@media only screen and (min-width: 64rem){
+    nav ul li a {
+        padding: .6rem 1rem;}
+    nav ul.hide {
+        display:none;
+        }    
+}
+/*end large screen query*/
 footer{
     background-color:lightslategrey;
     color:white;
@@ -82,4 +95,10 @@ footer{
     align-items: center;
     justify-content: center;
 
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
 }
