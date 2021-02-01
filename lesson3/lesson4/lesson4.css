@@ -2,8 +2,12 @@ main{
     margin:0 auto;
     max-width: 760px;
 }
+header{
+    margin:0;
+    padding:0;
+}
 .heading{
-    background-color:lightslategrey;
+    background-color:#142130;
     color:white;
     display:flex;
     flex-direction: column;
@@ -21,10 +25,10 @@ nav button{
     background-color: transparent;
     border:none;
     font-size: 1.6rem;
-    color: darkgrey;
+    color: #000000;
 }
 nav {	
-	background-color: lightgrey;
+	background-color: #FCA311;
 }
 nav ul{
     list-style-type: none;
