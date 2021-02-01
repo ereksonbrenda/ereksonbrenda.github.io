@@ -83,9 +83,7 @@ nav ul li a{
 @media only screen and (min-width: 64rem){
     nav ul li a {
         padding: .6rem 1rem;}
-    nav ul.hide {
-        display:none;
-        }    
+    
 }
 /*end large screen query*/
 footer{
