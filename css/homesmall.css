@@ -11,6 +11,31 @@ header,footer {
     margin-top: 10px;
 
 }
+nav{
+    background-color:black;
+    max-width:760px;
+    
+}
+nav ul{
+    
+    display:flex;
+    flex-direction:column;
+    padding: 1rem;
+    margin:0;
+}
+nav a{
+    text-decoration:none;
+    display:block;
+    text-align:left;
+    color:white;
+    font-weight: 200px;
+    padding:0;
+
+}
+nav ul li a:hover{
+    background-color:white;
+    color:black;
+}
 h1,h2,h3,h4{
     font-family: 'Roboto', sans-serif;
     margin: 0.15rem;
