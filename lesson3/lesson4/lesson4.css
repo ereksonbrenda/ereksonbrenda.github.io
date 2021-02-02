@@ -2,10 +2,7 @@ main{
     margin:0 auto;
     max-width: 760px;
 }
-header{
-    margin:0;
-    padding:0;
-}
+
 .heading{
     background-color:#142130;
     color:white;
@@ -16,39 +13,38 @@ header{
     padding:0;
 }
 header img{
-    width:80px;
-    height:auto;
+    max-width:100px;
+}
 
+nav {
+    max-resolution: 40px; auto;
+    	
+    background-color: #FCA311;
+    padding:0;
 }
-nav button{
-    margin: .2rem 2%;
-    background-color: transparent;
-    border:none;
-    font-size: 1.6rem;
-    color: #000000;
-}
-nav {	
-	background-color: #FCA311;
-}
-nav ul{
+.navigation{
     list-style-type: none;
     padding:0;
-    margin:0;
 }
-nav ul li a{
+.navigation li:first-child{
+    display:block;
+}
+.navigation li{
+    display:none;
+}
+.navigation a{
     display: block;
     padding: .8rem 2%;
     text-decoration: none;
     color: black;
     border-top: 1px solid rgba(0,0,0,0.3)
 }
-nav ul li a:hover{
+.navigation a:hover{
     background-color: rgba(0,0,0,0.2);
 }
-nav ul li.active a{
-    background-color: rgba(0,0,0,0.3) color:white;
+.responsive li{
+    display:block;
 }
-
 
 /* Media Query for medium+ views */
 @media only screen and (min-width: 32.5em) {
@@ -62,30 +58,26 @@ div{
     background-color:yellowgreen;
 
 }
-nav button{ display:none;
 
-}
-nav ul.hide{
-    display:block;
-}
-nav ul{
+.navigation{
+    display:flex;
     margin-left: 2%;
 
 }
-nav ul li {
-    float:left;
+.navigation li {
+    display:block;
+    flex:1 1 100%;
+    
 }
-nav ul li a{
-    border:none;
-    border-right: 1px solid rgba(0,0,0,0.3);
-    padding: .8rem 1rem;
+.navigation li:first-child{
+   display:none;
+}
 
-}
 }
 /*medium query end*/
 /*start large query here*/
 @media only screen and (min-width: 64rem){
-    nav ul li a {
+    .navigation li a {
         padding: .6rem 1rem;}
     
 }
